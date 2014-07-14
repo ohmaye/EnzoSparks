@@ -14,6 +14,10 @@
 		DDEEDB8B19734CED00B79B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEEDB8919734CED00B79B54 /* Main.storyboard */; };
 		DDEEDB8D19734CED00B79B54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEEDB8C19734CED00B79B54 /* Images.xcassets */; };
 		DDEEDB9919734CED00B79B54 /* EnzoSparksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEEDB9819734CED00B79B54 /* EnzoSparksTests.swift */; };
+		DDEEDBA5197352F900B79B54 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEEDBA3197352F900B79B54 /* spark.png */; };
+		DDEEDBA91973539F00B79B54 /* ParticleFireFlies.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDEEDBA81973539F00B79B54 /* ParticleFireFlies.sks */; };
+		DDEEDBAB197353AF00B79B54 /* ParticleMagic.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDEEDBAA197353AF00B79B54 /* ParticleMagic.sks */; };
+		DDEEDBAD197353C100B79B54 /* ParticleRain.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDEEDBAC197353C100B79B54 /* ParticleRain.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		DDEEDB9219734CED00B79B54 /* EnzoSparksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnzoSparksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEEDB9719734CED00B79B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDEEDB9819734CED00B79B54 /* EnzoSparksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoSparksTests.swift; sourceTree = "<group>"; };
+		DDEEDBA3197352F900B79B54 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		DDEEDBA81973539F00B79B54 /* ParticleFireFlies.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleFireFlies.sks; sourceTree = "<group>"; };
+		DDEEDBAA197353AF00B79B54 /* ParticleMagic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleMagic.sks; sourceTree = "<group>"; };
+		DDEEDBAC197353C100B79B54 /* ParticleRain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleRain.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDA2FA781973555C00FE309F /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				DDEEDBA3197352F900B79B54 /* spark.png */,
+				DDEEDBA81973539F00B79B54 /* ParticleFireFlies.sks */,
+				DDEEDBAA197353AF00B79B54 /* ParticleMagic.sks */,
+				DDEEDBAC197353C100B79B54 /* ParticleRain.sks */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
 		DDEEDB7319734CEC00B79B54 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +98,7 @@
 		DDEEDB7E19734CEC00B79B54 /* EnzoSparks */ = {
 			isa = PBXGroup;
 			children = (
+				DDA2FA781973555C00FE309F /* Particles */,
 				DDEEDB8119734CED00B79B54 /* AppDelegate.swift */,
 				DDEEDB8319734CED00B79B54 /* GameScene.sks */,
 				DDEEDB8519734CED00B79B54 /* GameScene.swift */,
@@ -195,7 +215,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDEEDBA5197352F900B79B54 /* spark.png in Resources */,
+				DDEEDBAB197353AF00B79B54 /* ParticleMagic.sks in Resources */,
+				DDEEDBA91973539F00B79B54 /* ParticleFireFlies.sks in Resources */,
 				DDEEDB8D19734CED00B79B54 /* Images.xcassets in Resources */,
+				DDEEDBAD197353C100B79B54 /* ParticleRain.sks in Resources */,
 				DDEEDB8419734CED00B79B54 /* GameScene.sks in Resources */,
 				DDEEDB8B19734CED00B79B54 /* Main.storyboard in Resources */,
 			);
@@ -405,6 +429,7 @@
 				DDEEDB9E19734CED00B79B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDEEDB9F19734CED00B79B54 /* Build configuration list for PBXNativeTarget "EnzoSparksTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				DDEEDBA119734CED00B79B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
